@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_MYARCH_TARGETINFO_MYARCHTARGETINFO_H
+#define LLVM_LIB_TARGET_MYARCH_TARGETINFO_MYARCHTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getMyArchTarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_MYARCH_TARGETINFO_SIMTARGETINFO_H
