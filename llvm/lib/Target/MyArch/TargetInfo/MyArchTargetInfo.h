@@ -9,4 +9,4 @@ Target &getMyArchTarget();
 
 } // end namespace llvm
 
-#endif // LLVM_LIB_TARGET_MYARCH_TARGETINFO_SIMTARGETINFO_H
+#endif // LLVM_LIB_TARGET_MYARCH_TARGETINFO_MYARCHTARGETINFO_H

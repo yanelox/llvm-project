@@ -13,5 +13,5 @@ Target &llvm::getMyArchTarget() {
 extern "C" LLVM_EXTERNAL_VISIBILITY void LLVMInitializeMyArchTargetInfo() {
   MYARCH_DUMP_YELLOW
   RegisterTarget<Triple::my_arch> X(getMyArchTarget(), "MyArch",
-                                "Simulator target for LLVM course", "MYARCH");
+                                "MyArch test target for LLVM course", "MYARCH");
 }
